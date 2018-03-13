@@ -15,6 +15,8 @@ Recipes for extracting insights from the [Chrome User Experience Report](develop
     - [Measuring proportion of device and connection usage](https://bigquery.cloud.google.com/savedquery/920398604589:da87c0f06bf8488b83735271ddbba0ef)
 6. [Generating FCP histogram with normalized bin widths](https://bigquery.cloud.google.com/savedquery/920398604589:52cfec3eb5794f26833f1cb7636a764f)
     - [visualizing the histogram](https://docs.google.com/spreadsheets/d/1oFpRt3dJJqHr6dMEotzIcS289wXDgXAuS6Qnn2hYCjE/edit#gid=1214287754)
+7. [Generating timeseries of competitors' fast FCP](https://bigquery.cloud.google.com/savedquery/920398604589:75c646a625544b6f8e76b7b017dca80c)
+    - [visualizing the timeseries](https://docs.google.com/spreadsheets/d/1oFpRt3dJJqHr6dMEotzIcS289wXDgXAuS6Qnn2hYCjE/edit#gid=208026229)
 
 
 ## Contributing
