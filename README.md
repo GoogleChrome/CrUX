@@ -1,6 +1,6 @@
 # CrUX Cookbook
 
-Recipes for extracting insights from the [Chrome User Experience Report](developers.google.com/web/tools/chrome-user-experience-report/) (CrUX).
+Recipes for extracting insights from the [Chrome User Experience Report](https://developers.google.com/web/tools/chrome-user-experience-report/) (CrUX).
 
 ## Guided Tour of CrUX
 
