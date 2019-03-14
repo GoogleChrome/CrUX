@@ -1,4 +1,5 @@
 #standardSQL
+# Emulates the analysis on https://www.thinkwithgoogle.com/feature/testmysite
 SELECT
   MIN(start) AS p90_fcp
 FROM (
