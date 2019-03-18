@@ -29,6 +29,7 @@ This repository is not an officially supported Google product.
 
 Pull requests welcome!
 
+- See [CONTRIBUTING.md](CONTRIBUTING.md)
 - Standard SQL preferred
 - Match formatting of existing recipes ("Format Query" on BigQuery doesn't always look good)
 - Name your recipe using descriptive keywords (eg `median-fcp.sql`)
