@@ -2,6 +2,8 @@
 
 Recipes for extracting insights from the [Chrome User Experience Report](https://developers.google.com/web/tools/chrome-user-experience-report/) (CrUX).
 
+This repository is not an officially supported Google product.
+
 ## Guided Tour of CrUX
 
 1. [Counting the number of distinct origins](https://bigquery.cloud.google.com/savedquery/920398604589:a3f1c0c2440f481b9cf7ddb082726f50)
