@@ -39,11 +39,6 @@
     "region": "Americas",
     "sub-region": "Caribbean"
   },
-  "aq": {
-    "name": "Antarctica",
-    "region": null,
-    "sub-region": null
-  },
   "ag": {
     "name": "Antigua and Barbuda",
     "region": "Americas",
@@ -149,11 +144,6 @@
     "region": "Africa",
     "sub-region": "Southern Africa"
   },
-  "bv": {
-    "name": "Bouvet Island",
-    "region": null,
-    "sub-region": null
-  },
   "br": {
     "name": "Brazil",
     "region": "Americas",
@@ -231,11 +221,6 @@
   },
   "cx": {
     "name": "Christmas Island",
-    "region": null,
-    "sub-region": null
-  },
-  "cc": {
-    "name": "Cocos (Keeling) Islands",
     "region": null,
     "sub-region": null
   },
@@ -389,11 +374,6 @@
     "region": "Oceania",
     "sub-region": "Polynesia"
   },
-  "tf": {
-    "name": "French Southern Territories",
-    "region": null,
-    "sub-region": null
-  },
   "ga": {
     "name": "Gabon",
     "region": "Africa",
@@ -478,16 +458,6 @@
     "name": "Haiti",
     "region": "Americas",
     "sub-region": "Caribbean"
-  },
-  "hm": {
-    "name": "Heard Island and McDonald Islands",
-    "region": null,
-    "sub-region": null
-  },
-  "va": {
-    "name": "Holy See",
-    "region": "Europe",
-    "sub-region": "Southern Europe"
   },
   "hn": {
     "name": "Honduras",
@@ -809,11 +779,6 @@
     "region": "Africa",
     "sub-region": "Western Africa"
   },
-  "nu": {
-    "name": "Niue",
-    "region": "Oceania",
-    "sub-region": "Polynesia"
-  },
   "nf": {
     "name": "Norfolk Island",
     "region": "Oceania",
@@ -873,11 +838,6 @@
     "name": "Philippines",
     "region": "Asia",
     "sub-region": "South-Eastern Asia"
-  },
-  "pn": {
-    "name": "Pitcairn",
-    "region": "Oceania",
-    "sub-region": "Polynesia"
   },
   "pl": {
     "name": "Poland",
@@ -1029,11 +989,6 @@
     "region": "Africa",
     "sub-region": "Southern Africa"
   },
-  "gs": {
-    "name": "South Georgia and the South Sandwich Islands",
-    "region": null,
-    "sub-region": null
-  },
   "ss": {
     "name": "South Sudan",
     "region": "Africa",
@@ -1114,11 +1069,6 @@
     "region": "Africa",
     "sub-region": "Western Africa"
   },
-  "tk": {
-    "name": "Tokelau",
-    "region": "Oceania",
-    "sub-region": "Polynesia"
-  },
   "to": {
     "name": "Tonga",
     "region": "Oceania",
@@ -1179,11 +1129,6 @@
     "region": "Americas",
     "sub-region": "Northern America"
   },
-  "um": {
-    "name": "United States Minor Outlying Islands",
-    "region": null,
-    "sub-region": null
-  },
   "uy": {
     "name": "Uruguay",
     "region": "Americas",
@@ -1218,11 +1163,6 @@
     "name": "Virgin Islands (U.S.)",
     "region": "Americas",
     "sub-region": "Caribbean"
-  },
-  "wf": {
-    "name": "Wallis and Futuna",
-    "region": "Oceania",
-    "sub-region": "Polynesia"
   },
   "eh": {
     "name": "Western Sahara",
