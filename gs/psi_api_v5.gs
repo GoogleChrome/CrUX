@@ -1,4 +1,5 @@
 // Example of Google Apps Script code that connects a Sheet with the PSI v5 API.
+// Make a copy of this sheet to get started: https://docs.google.com/spreadsheets/d/1mFWe_KbO8_MevyzrDyULbB3SQqXiciKlzWJfmyUBneU/edit?usp=sharing
 
 var scriptProperties = PropertiesService.getScriptProperties();
 var pageSpeedApiKey = scriptProperties.getProperty('PSI_API_KEY');
