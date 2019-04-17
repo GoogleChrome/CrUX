@@ -6,7 +6,7 @@ CrUX is the [Chrome User Experience Report](https://developers.google.com/web/to
 
 This repository is a place for the web community to share queries, ideas, or issues. The [CrUX Cookbook](sql/) is a place to discover useful recipes for extracting insights from the CrUX dataset. If you have a recipe that you'd like to share, feel free to submit a pull request.
 
-We also encourage CrUX users to use GitHub issues to [ask questions](issues/new?labels=question), [suggest new features](issues/new?labels=question), or [file bugs](issues/new?labels=bug). This process replaces the old [Google Group](https://groups.google.com/a/chromium.org/forum/#!forum/chrome-ux-report).
+We also encourage CrUX users to use GitHub issues to [ask questions](https://github.com/GoogleChrome/CrUX/issues/new?labels=question), [suggest new features](https://github.com/GoogleChrome/CrUX/issues/new?labels=enhancement), or [file bugs](https://github.com/GoogleChrome/CrUX/issues/new?labels=bug). This process replaces the old [Google Group](https://groups.google.com/a/chromium.org/forum/#!forum/chrome-ux-report).
 
 
 _This repository is not an officially supported Google product._
