@@ -3,7 +3,7 @@
 SELECT
   p75_cls,
   small_cls AS good,
-  medium_cls AS adequate,
+  medium_cls AS needs_improvement,
   large_cls AS poor
 FROM
   `chrome-ux-report.materialized.metrics_summary`
