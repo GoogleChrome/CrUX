@@ -1,0 +1,12 @@
+{
+  "name": "core_web_vitals_crux_demo",
+  "version": "0.1.0",
+  "description": "A micro library to check core web vitals for a site with the Chrome UX Report API via CLI.",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.3.1"
+  }
+}
