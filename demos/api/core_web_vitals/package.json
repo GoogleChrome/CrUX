@@ -3,7 +3,21 @@
   "version": "0.1.0",
   "description": "A micro library to check core web vitals for a site with the Chrome UX Report API via CLI.",
   "main": "main.js",
-  "license": "MIT",
+  "author": {
+    "name": "Shane Exterkamp",
+    "email": "exterkamp@google.com"
+  },
+  "contributors": [
+    {
+      "name": "Paul Irish",
+      "email": "paulirish@google.com"
+    },
+    {
+      "name": "Rick Viscomi",
+      "email": "rviscomi@google.com"
+    }
+  ],
+  "license": "Apache-2.0",
   "dependencies": {
     "chalk": "^4.0.0",
     "node-fetch": "^2.6.0",
