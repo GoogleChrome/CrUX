@@ -17,12 +17,12 @@ const chalk = require('chalk');
 var argv = require('yargs').options({
   'o': {
     alias: 'origin',
-    describe: 'The origin to lookup.',
+    describe: 'The origin to look up.',
     type: 'string'
   },
   'u': {
     alias: 'url',
-    describe: 'The URL to lookup.',
+    describe: 'The URL to look up.',
     type: 'string'
   }, 'f': {
     alias: 'formFactor',
