@@ -171,23 +171,23 @@ function labelMetricData(metrics) {
   }
   // Add form factor too...
   console.log('\n' + resId);
-  let pass = true;
   for (const metric of labeledMetrics) {
-    // console.log("Metric: " + JSON.stringify(metric, null, 2));
     if (nameToCWVMap[metric.name]) {
         // Check pass fail
+        let result = chalk.red('failed');
+        let resultComparator = "!<=";
         if (metric.percentiles.p75 <= nameToCWVMap[metric.name]) {
-            console.log('Metric "' + metric.name + '" ' + chalk.green('passes') + ' the Core Web Vitals assessment. (' + metric.percentiles.p75 + ' <= ' + nameToCWVMap[metric.name] + ')');
-        } else {
-            console.log('Metric "' + metric.name + '" ' + chalk.red('failed') + ' the Core Web Vitals assessment. (' + metric.percentiles.p75 + ' !<= ' + nameToCWVMap[metric.name] + ')');
-            pass = false;
+          result = chalk.green('passes');
+          resultComparator = "<=";
         }
+        console.log(`Metric "${metric.name}" ${result} the Core Web Vitals assessment. (${metric.percentiles.p75} ${resultComparator} ${nameToCWVMap[metric.name]})`);
+
     }
   }
   // The final result for this query.
   // If everything passed, then CWV passes, otherwise fail!
   let result = 'Core Web Vitals Assessment: ';
-  if (pass) {
+  if (labeledMetrics.every(metric => nameToCWVMap[metric.name] ? metric.percentiles.p75 <= nameToCWVMap[metric.name] : true)) {
     result += chalk.green('PASSED');
   } else {
     result += chalk.red('FAILED');
