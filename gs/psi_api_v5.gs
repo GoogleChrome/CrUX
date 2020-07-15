@@ -1,3 +1,6 @@
+// Copyright 2020 Google LLC.
+// SPDX-License-Identifier: Apache-2.0
+
 // Example of Google Apps Script code that connects a Sheet with the PSI v5 API.
 // Make a copy of this sheet to get started: https://docs.google.com/spreadsheets/d/1mFWe_KbO8_MevyzrDyULbB3SQqXiciKlzWJfmyUBneU/edit?usp=sharing
 
