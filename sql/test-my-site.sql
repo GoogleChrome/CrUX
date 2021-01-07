@@ -1,18 +1,13 @@
 #standardSQL
 # Emulates the analysis on https://www.thinkwithgoogle.com/feature/testmysite
 SELECT
-  MIN(start) AS p90_fcp
-FROM (
-  SELECT
-      bin.start as start,
-      bin.density AS density,
-      (SUM(bin.density) OVER (ORDER BY bin.start))/(SUM(bin.density) OVER ()) AS total
-  FROM
-    `chrome-ux-report.country_us.201901`,
-    UNNEST(first_contentful_paint.histogram.bin) AS bin
-  WHERE
-    origin = 'https://www.example.com'
-    and effective_connection_type.name= '4G'
-    and form_factor.name != 'desktop')
+  `chrome-ux-report`.experimental.PERCENTILE(ARRAY_AGG(bin), 75) AS p75_lcp
+FROM
+  `chrome-ux-report.experimental.country`,
+  UNNEST(largest_contentful_paint.histogram.bin) AS bin
 WHERE
-  total >= 0.9
+  yyyymm = 202001 AND
+  country_code = 'us' AND
+  origin = 'https://www.example.com' AND
+  effective_connection_type.name = '4G' AND
+  form_factor.name != 'desktop'
