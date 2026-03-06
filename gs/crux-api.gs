@@ -58,11 +58,11 @@ function getCrUXData(key, value, formFactor) {
   }
   
   const lcp = getMetricData(response.record.metrics.largest_contentful_paint);
-  const fid = getMetricData(response.record.metrics.first_input_delay);
+  const inp = getMetricData(response.record.metrics.interaction_to_next_paint);
   const cls = getMetricData(response.record.metrics.cumulative_layout_shift);
   addRow(value, formFactor,
          lcp.good, lcp.ni, lcp.poor, lcp.p75,
-         fid.good, fid.ni, fid.poor, fid.p75,
+         inp.good, inp.ni, inp.poor, inp.p75,
          cls.good, cls.ni, cls.poor, cls.p75);
 }
 
