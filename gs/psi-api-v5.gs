@@ -35,14 +35,14 @@ function addRow(url, desktop, mobile) {
     date,
     url,
     getFastFCP(desktop),
-    getFastFID(desktop)
+    getFastINP(desktop)
   ]);
   sheet = spreadsheet.getSheetByName('Mobile');
   sheet.appendRow([
     date,
     url,
     getFastFCP(mobile),
-    getFastFID(mobile)
+    getFastINP(mobile)
   ]);
 }
 
@@ -50,6 +50,6 @@ function getFastFCP(data) {
   return data.originLoadingExperience.metrics.FIRST_CONTENTFUL_PAINT_MS.distributions[0].proportion;
 }
 
-function getFastFID(data) {
-  return data.originLoadingExperience.metrics.FIRST_INPUT_DELAY_MS.distributions[0].proportion;
+function getFastINP(data) {
+  return data.originLoadingExperience.metrics.INTERACTION_TO_NEXT_PAINT_MS.distributions[0].proportion;
 }
